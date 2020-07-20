@@ -1,7 +1,7 @@
 import React from "react"
 import SearchBar from "./searchbar"
-import t from './twitter.png';
-import i from './instagram.png';
+import t from './assets/twitter.png';
+import i from './assets/instagram.png';
 
 const Navbar = (props) =>
 {
