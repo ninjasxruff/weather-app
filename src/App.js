@@ -26,9 +26,8 @@ let zz = 1
     console.log("Not Available");
   }
 }*/
-class App extends React.Component 
-{
-  constructor()
+class App extends React.Component {
+ constructor()
   {
     super();
     this.state = 
@@ -164,14 +163,13 @@ class App extends React.Component
     }
   }
 
-  
+ 
   
 
  // this.getWeatherIcon(this.getWeather,response.weather[0].id)
   
-  render()
-  {
-    return (
+  render(){
+    return(
       <div className="App">
         <Navbar loadWeather={this.getWeather} error={this.error} />
         <div className='w-full h-screen flex'>
@@ -198,6 +196,6 @@ class App extends React.Component
       </div>
       );
   }
-}
 
+}
 export default App;

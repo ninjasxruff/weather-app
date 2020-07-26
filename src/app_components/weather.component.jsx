@@ -13,6 +13,6 @@ const Weather = (props) =>
                 </div>              
            </div>
            </div>
-    )
+    );
 }
 export default Weather

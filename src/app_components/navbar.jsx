@@ -16,6 +16,6 @@ const Navbar = (props) =>
                 <SearchBar loadWeather={props.loadWeather} error={props.error}/>
                 </div>
         </div>
-    )
+    );
 }
 export default Navbar

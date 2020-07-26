@@ -64,6 +64,6 @@ const Dayte = (props) =>
                 {console.log(props.validity)}
                {props.validity === undefined ? null : <h3>{dc()}, {date}th {mc()} {year}</h3> }
         </div>
-    )
+    );
 }
 export default Dayte
